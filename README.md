@@ -1,2 +1,3 @@
-# Abercrombie
-Code for the Abercrombie interview process
+# AbercrombieCodeExercise
+
+Code necessary for the Abercrombie Code Exercise

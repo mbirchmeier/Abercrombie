@@ -1,0 +1,36 @@
+<index>
+    <head>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js" ></script>
+        <script src="tasks.js" ></script>
+        <link rel="stylesheet" type="text/css" href="abercrombie.css">
+    </head>
+    <body>
+        <div class='header'>
+            <h1>Task Tracker</h1>
+            <h2>v2.0</h2>
+        </div>
+
+        <div class='row'>
+            <div class='left-column'>
+                <h3>Create a Task</h3>
+                <p>Task Name </p> 
+                <input id='task-name'/>
+                <p>Date</p>
+                <input id='date'/> <!-- potentially add a date mask to this field or a calendar control -->
+                <p>Assigned To</p>
+                <input id='assigned-to'/> 
+                <!-- note added value="Submit" to retain text on IE -->
+                <input class='submit' type='submit' value="Submit" onclick="pageScope.submitClicked()" />
+            </div>
+            <div class='right-column'>   
+            <h3>Existing Tasks</h3>
+                <table id="task-table" cellspacing="0" cellpadding="0">
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+        
+      </body>
+      </index>
+        
